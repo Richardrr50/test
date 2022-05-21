@@ -27,7 +27,7 @@
       <div class="container-fluid" id="headerContainer">
         <h2 id="headerH2">
           Roundnet<img
-            src="../media/images/logo-transparant.png"
+            src="../media/images/Logo-Roundnet-Brugge.png"
             alt="Logo_Roundnet-Brugge"
           />Brugge
         </h2>
@@ -85,23 +85,47 @@
         </ul>
       </div>
     </nav>
-    <main>
-      <form
-        action="https://formspree.io/f/xbjwpydb"
-        target="blank"
-        method="POST"
-      >
-        <label>
-          Your email:
-          <input type="email" name="email" />
-        </label>
-        <label>
-          Your message:
-          <textarea name="message"></textarea>
-        </label>
-        <!-- your other form fields go here -->
-        <button type="submit">Send</button>
-      </form>
+    <main id="contactPage">
+      <div>
+        <h2>Contact Informatie</h2>
+        <h4>Email: roundnetbrugge@gmail.com</h4>
+        <h2>Social media:</h2>
+        <ul>
+        <li><a href="https://www.facebook.com/RoundnetBrugge/" target="blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/roundnet.brugge/" target="blank">Instagram</a></li>
+        </ul>
+      </div>
+      <div>
+        <form id="contactForm" action="https://formspree.io/f/mlezaqkz" method="POST">
+
+          <div class="mb-3">
+            <label class="form-label" for="name">Naam:</label>
+            <input class="form-control" id="name" type="text" name="subject" placeholder="Email Address" />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="emailAddress">Email Adres:</label>
+            <input class="form-control" id="emailAddress" type="email" name="email" placeholder="Email Address" />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="subject">Onderwerp:</label>
+            <input class="form-control" id="subject" type="text" name="subject" placeholder="Email Address" />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="message">Bericht</label>
+            <textarea class="form-control" id="message" type="text" name="message" placeholder="Message" ></textarea>
+          </div>
+
+          <!-- Form submit button -->
+          <div class="d-grid">
+            <button class="btn btn-primary btn-lg" type="submit">Verzenden</button>
+          </div>
+
+        </form>
+
+      </div>
     </main>
   </body>
 </html>

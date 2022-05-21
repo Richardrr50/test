@@ -21,10 +21,14 @@ p {
 }
 
 .iframeContainer {
-  width: 70%;
+  size: 70vh;
   padding-top: 3rem;
   margin: auto;
   text-align: center;
+}
+
+.iframeContainer iframe{
+  width: 50vw;
 }
 
 .imageContainer {
@@ -173,3 +177,78 @@ p:nth-of-type(2) {
   margin-top: 5rem;
   grid-column: 2;
 }
+
+#contactPage{
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+#contactPage div:nth-of-type(1){
+  width: 50%;
+}
+#contactPage div:nth-of-type(2){
+  width: 30vw;
+}
+
+#contactPage input{
+  width: 30vw;
+}
+
+#contactPage form{
+  width: 100%;
+}
+
+#contactPage button{
+  color: black;
+  background-color: #feed01;
+}
+
+#contactPage h2 {
+  margin-bottom: 2rem;
+}
+
+#contactPage h4{
+  margin-bottom: 3rem;
+}
+
+#contactPage li:nth-of-type(1){
+  list-style: none;
+  height: 2rem;
+  background-image: url("../media/images/facebook-icon.png");
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 30px;
+  font-size: 1.2rem;
+}
+
+#contactPage li:nth-of-type(2){
+  margin-top: 1rem;
+  list-style: none;
+  height: 2rem;
+  background-image: url("../media/images/instagram-icon.png");
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 32px;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 900px){
+  #contactPage form{
+    display: none;
+  }
+
+  #socials li{
+    margin-bottom: 0.5rem;
+  }
+
+  .iframeContainer{
+    width: 100%;
+  }
+}
+
