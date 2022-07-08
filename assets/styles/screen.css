@@ -211,30 +211,23 @@ p:nth-of-type(2) {
   margin-bottom: 2rem;
 }
 
-#contactPage h4{
-  margin-bottom: 3rem;
+#contactPage h4:nth-of-type(1){
+  margin-top:2rem;
+  margin-bottom: 4rem;
+}
+
+#contactPage h4 span{
+  color: #0d6efd;
+  text-decoration-line: underline;
 }
 
 #contactPage li:nth-of-type(1){
   list-style: none;
-  height: 2rem;
-  background-image: url("../media/images/facebook-icon.png");
-  background-size: 2rem;
-  background-repeat: no-repeat;
-  background-position: left center;
-  padding-left: 30px;
   font-size: 1.2rem;
 }
 
 #contactPage li:nth-of-type(2){
-  margin-top: 1rem;
   list-style: none;
-  height: 2rem;
-  background-image: url("../media/images/instagram-icon.png");
-  background-size: 2rem;
-  background-repeat: no-repeat;
-  background-position: left center;
-  padding-left: 32px;
   font-size: 1.2rem;
 }
 
