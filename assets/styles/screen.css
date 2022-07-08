@@ -21,14 +21,14 @@ p {
 }
 
 .iframeContainer {
-  size: 70vh;
   padding-top: 3rem;
   margin: auto;
   text-align: center;
 }
 
 .iframeContainer iframe{
-  width: 50vw;
+  width: 70vw;
+  height: 70vh;
 }
 
 .imageContainer {
