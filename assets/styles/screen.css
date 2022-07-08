@@ -139,6 +139,10 @@ footer p {
   text-decoration-line: underline;
 }
 
+.underline{
+  color: #212529;
+}
+
 #inschrijvenIframe {
   width: 100%;
   margin: 2rem auto 2rem auto;
